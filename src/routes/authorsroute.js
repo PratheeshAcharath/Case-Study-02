@@ -5,7 +5,7 @@ const authordata = require('../model/AuthorModel');
 
 
 
-//router to render authors page
+//router to render authors page 
 authorsRouter.get('/',function(req,res){
 
     authordata.find() 
